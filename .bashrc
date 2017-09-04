@@ -124,3 +124,4 @@ GIT_PROMPT_SHOW_UNTRACKED_FILES="normal"
 GIT_PROMPT_ONLY_IN_REPO=0
 source ~/.bash-git-prompt/gitprompt.sh
 
+alias gst='git status'

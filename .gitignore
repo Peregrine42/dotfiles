@@ -7,4 +7,6 @@
 .profile
 .rbenv/
 .viminfo
-
+.ssh/
+id_rsa
+id_dsa
