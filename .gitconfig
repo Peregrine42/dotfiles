@@ -3,3 +3,5 @@
 [user]
 	email = duncan_fermor@fastmail.com
 	name = Duncan Fermor
+[push]
+	default = simple

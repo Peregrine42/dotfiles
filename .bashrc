@@ -125,3 +125,4 @@ GIT_PROMPT_ONLY_IN_REPO=0
 source ~/.bash-git-prompt/gitprompt.sh
 
 alias gst='git status'
+alias gaa='git add -Av'
