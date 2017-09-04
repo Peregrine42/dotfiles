@@ -117,7 +117,7 @@ fi
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)" 
 
-GIT_PROMPT_START="\[\e[33m\]\u\[\e[m\]\[\e[32;40m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\] \[\e[35m\]\w\[\e[m\] "
+GIT_PROMPT_START="\[\e[33m\]\u\[\e[m\]\[\e[32;40m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\] \[\e[35m\]\w\[\e[m\]"
 
 GIT_PROMPT_END="\[\e[m\]\n\\$ "
 GIT_PROMPT_SHOW_UNTRACKED_FILES="normal"
