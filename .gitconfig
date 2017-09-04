@@ -1,0 +1,5 @@
+[core]
+	excludesfile = /home/duncan/.gitignore
+[user]
+	email = duncan_fermor@fastmail.com
+	name = Duncan Fermor

@@ -1,0 +1,10 @@
+*.swp
+*.swa
+.bash_history
+.bash-git-prompt/
+.bash_logout
+.bash_profile
+.profile
+.rbenv/
+.viminfo
+
