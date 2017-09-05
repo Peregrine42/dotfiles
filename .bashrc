@@ -113,6 +113,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
+export DOCS=/mnt/c/Users/duncan
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)" 
