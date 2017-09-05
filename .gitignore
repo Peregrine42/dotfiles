@@ -10,3 +10,4 @@
 .ssh/
 id_rsa
 id_dsa
+bin/stubs/
