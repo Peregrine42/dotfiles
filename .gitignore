@@ -11,3 +11,6 @@
 id_rsa
 id_dsa
 bin/stubs/
+.bash/
+.gem/
+.bundle/

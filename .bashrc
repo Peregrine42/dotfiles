@@ -115,15 +115,26 @@ fi
 
 export DOCS=/mnt/c/Users/duncan
 
+export BUNDLE_PATH=/mnt/c/Users/duncan/dev/bundle/
+export BUNDLE_BIN=./bin/stubs/
+
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)" 
 
-GIT_PROMPT_START="\[\e[33m\]\u\[\e[m\]\[\e[32;40m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\] \[\e[35m\]\w\[\e[m\]"
-
-GIT_PROMPT_END="\[\e[m\]\n\\$ "
-GIT_PROMPT_SHOW_UNTRACKED_FILES="normal"
-GIT_PROMPT_ONLY_IN_REPO=0
-source ~/.bash-git-prompt/gitprompt.sh
-
 alias gst='git status'
 alias gaa='git add -Av'
+
+export EDITOR=vim
+
+GREEN="\[\e[0;32m\]"
+BLUE="\[\e[0;34m\]"
+RED="\[\e[0;31m\]"
+BRED="\e[1;31m\]"
+YELLOW="\[\e[0;33m\]"
+WHITE="\e[0;37m\]"
+BWHITE="\e[1;37m\]"
+COLOREND="\[\e[00m\]"
+
+export GITAWAREPROMPT=~/.bash/git-aware-prompt
+source "${GITAWAREPROMPT}/main.sh"
+export PS1="\${debian_chroot:+(\$debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\] \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\]\n\$ "
